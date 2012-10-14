@@ -1,0 +1,63 @@
+
+#calender
+{
+	
+	font: 100% comic sans;
+	background-color: mistyrose;
+	border-collapse: collapse;
+	empty-cells: show;
+	border: 1px solid maroon;
+	text-align:center;
+	
+}
+
+#calender > caption
+{
+	text-align: center;
+	font-weight: bold;
+	font-style:italics;
+	font-size: 125%;
+	font-family: pristina;
+	border-bottom: .2em solid maroon;
+	margin-bottom: .5em;
+}
+
+#calender th,
+#calender td
+{
+	text-align: right;
+	padding-right: .5em;
+}
+
+#calender
+ th
+{
+	font-weight: bold;
+	padding-left: .5em;
+}
+
+/*header*/
+#calender > thead > tr:first-child > th
+{
+	text-align: center;
+	color: red;
+}
+
+#calender > thead > tr:first-child>th
+{
+	background-color: palegreen;
+}
+/*body*/
+#calender tr:nth-child(even)
+{
+	background-color: palegreen;
+	padding: .5em .5em .5em 3em;
+	border: 2px solid maroon;
+}
+
+#calender tr:nth-child(odd)
+{
+	background-color: navjowhite;
+	padding: .5em .5em .5em 3em;
+	border: 2px solid maroon;
+}

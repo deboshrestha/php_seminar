@@ -1,0 +1,17 @@
+INSTRUCTIONS:
+1. Download this folder as a zip file.
+2. Copy paste php file or html file in .../xampp/htdocs
+3*. Start XAMPP server by clicking on Apache -> Start
+4. To run the php file or html file e.g. calender.php in your web browser, open localhost/calender.php
+Note: Similar procedure is to be followed for running any php file.
+
+* In order to run the database examples make sure that MySql is running as well.
+
+
+Some useful php related video links:
+1. http://www.youtube.com/watch?v=YsmMVwz1rlo
+
+References:
+1. http://php.about.com
+2. http://net.tutsplus.com/
+3. http://www.tizag.com/phpT
